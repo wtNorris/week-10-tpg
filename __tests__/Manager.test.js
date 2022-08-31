@@ -39,7 +39,7 @@ test("Can pass office number through getOfficeNumber function", () => {
 
 // test role
 
-test("Can return manager role to manangers", () => {
+test("Can return manager role to managers", () => {
     const testManager = "Manager";
     const newMan = new Manager("Ann", 97, "annmarieh@gmail.com", 1);
     expect(newMan.getRole()).toBe(testManager);
