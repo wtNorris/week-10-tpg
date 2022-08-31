@@ -25,7 +25,7 @@ test("Can assign email", () => {
 
 test("Can assign office number", () => {
     const officeNum = 1;
-    const newMan = new Manager("Ann", 97, "annmarieh@gmail.com", officeNum)
+    const newMan = new Manager("Ann", 97, "annmarieh@gmail.com", officeNum);
     expect(newMan.officeNumber).toBe(officeNum);
 });
 
