@@ -54,3 +54,5 @@ test("Can return employee role to employees", () => {
     const newEmp = new Employee("Molly", 96, "mollyannmarieh@gmail.com");
     expect(newEmp.getRole()).toBe(testEmployment);
 });
+
+//passed testing
